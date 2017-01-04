@@ -14,6 +14,17 @@
 		5A1F989E1E1D46EE00F7A397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F989D1E1D46EE00F7A397 /* Assets.xcassets */; };
 		5A1F98A11E1D46EE00F7A397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F989F1E1D46EE00F7A397 /* LaunchScreen.storyboard */; };
 		5A1F98AC1E1D46EE00F7A397 /* test1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F98AB1E1D46EE00F7A397 /* test1UITests.m */; };
+		5A1F98C11E1D600200F7A397 /* loginbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F98C01E1D600200F7A397 /* loginbackground.png */; };
+		5A1F98C41E1D625E00F7A397 /* SignupButtonLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F98C31E1D625E00F7A397 /* SignupButtonLarge.png */; };
+		5A1F98C61E1D635600F7A397 /* LoginButtonLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F98C51E1D635600F7A397 /* LoginButtonLarge.png */; };
+		5A1F98C81E1D64D900F7A397 /* Signupbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F98C71E1D64D900F7A397 /* Signupbackground.png */; };
+		5A1F98CA1E1D64E600F7A397 /* SignUpWitharow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F98C91E1D64E600F7A397 /* SignUpWitharow.png */; };
+		5A1F98D01E1D6BB000F7A397 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F98CF1E1D6BB000F7A397 /* BaseController.m */; };
+		5A1F98D51E1D6C1A00F7A397 /* BasePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F98D41E1D6C1A00F7A397 /* BasePage.m */; };
+		5A1F98D91E1D6C8A00F7A397 /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F98D71E1D6C8A00F7A397 /* LoginPage.m */; };
+		5A1F98DA1E1D6C8A00F7A397 /* LoginPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F98D81E1D6C8A00F7A397 /* LoginPage.xib */; };
+		5A1F98DE1E1D6CD300F7A397 /* SignupPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F98DC1E1D6CD300F7A397 /* SignupPage.m */; };
+		5A1F98DF1E1D6CD300F7A397 /* SignupPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F98DD1E1D6CD300F7A397 /* SignupPage.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,21 @@
 		5A1F98A71E1D46EE00F7A397 /* test1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1F98AB1E1D46EE00F7A397 /* test1UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test1UITests.m; sourceTree = "<group>"; };
 		5A1F98AD1E1D46EE00F7A397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A1F98C01E1D600200F7A397 /* loginbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = loginbackground.png; path = ../../../../../../Desktop/loginbackground.png; sourceTree = "<group>"; };
+		5A1F98C31E1D625E00F7A397 /* SignupButtonLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SignupButtonLarge.png; path = ../../../../../../Desktop/SignupButtonLarge.png; sourceTree = "<group>"; };
+		5A1F98C51E1D635600F7A397 /* LoginButtonLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LoginButtonLarge.png; path = ../../../../../../Desktop/LoginButtonLarge.png; sourceTree = "<group>"; };
+		5A1F98C71E1D64D900F7A397 /* Signupbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Signupbackground.png; path = ../../../../../../Desktop/Signupbackground.png; sourceTree = "<group>"; };
+		5A1F98C91E1D64E600F7A397 /* SignUpWitharow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SignUpWitharow.png; path = ../../../../../../Desktop/SignUpWitharow.png; sourceTree = "<group>"; };
+		5A1F98CE1E1D6BB000F7A397 /* BaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		5A1F98CF1E1D6BB000F7A397 /* BaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		5A1F98D31E1D6C1A00F7A397 /* BasePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePage.h; sourceTree = "<group>"; };
+		5A1F98D41E1D6C1A00F7A397 /* BasePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePage.m; sourceTree = "<group>"; };
+		5A1F98D61E1D6C8A00F7A397 /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginPage.h; sourceTree = "<group>"; };
+		5A1F98D71E1D6C8A00F7A397 /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginPage.m; sourceTree = "<group>"; };
+		5A1F98D81E1D6C8A00F7A397 /* LoginPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginPage.xib; sourceTree = "<group>"; };
+		5A1F98DB1E1D6CD300F7A397 /* SignupPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupPage.h; sourceTree = "<group>"; };
+		5A1F98DC1E1D6CD300F7A397 /* SignupPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupPage.m; sourceTree = "<group>"; };
+		5A1F98DD1E1D6CD300F7A397 /* SignupPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignupPage.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +107,14 @@
 		5A1F98901E1D46EE00F7A397 /* test1 */ = {
 			isa = PBXGroup;
 			children = (
-				5A1F98941E1D46EE00F7A397 /* AppDelegate.h */,
-				5A1F98951E1D46EE00F7A397 /* AppDelegate.m */,
-				5A1F98971E1D46EE00F7A397 /* ViewController.h */,
-				5A1F98981E1D46EE00F7A397 /* ViewController.m */,
-				5A1F989A1E1D46EE00F7A397 /* Main.storyboard */,
-				5A1F989D1E1D46EE00F7A397 /* Assets.xcassets */,
-				5A1F989F1E1D46EE00F7A397 /* LaunchScreen.storyboard */,
-				5A1F98A21E1D46EE00F7A397 /* Info.plist */,
+				5A1F98BD1E1D4E4200F7A397 /* Resources */,
+				5A1F98BC1E1D4D0100F7A397 /* Define */,
+				5A1F98BB1E1D4CC900F7A397 /* Utility */,
+				5A1F98BA1E1D4CB900F7A397 /* DB */,
+				5A1F98B91E1D4CAB00F7A397 /* View */,
+				5A1F98B81E1D4C9400F7A397 /* Operation */,
+				5A1F98B71E1D4C8A00F7A397 /* Model */,
+				5A1F98B61E1D4C7C00F7A397 /* Global */,
 				5A1F98911E1D46EE00F7A397 /* Supporting Files */,
 			);
 			path = test1;
@@ -97,6 +123,9 @@
 		5A1F98911E1D46EE00F7A397 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5A1F989A1E1D46EE00F7A397 /* Main.storyboard */,
+				5A1F989F1E1D46EE00F7A397 /* LaunchScreen.storyboard */,
+				5A1F98A21E1D46EE00F7A397 /* Info.plist */,
 				5A1F98921E1D46EE00F7A397 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -109,6 +138,122 @@
 				5A1F98AD1E1D46EE00F7A397 /* Info.plist */,
 			);
 			path = test1UITests;
+			sourceTree = "<group>";
+		};
+		5A1F98B61E1D4C7C00F7A397 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		5A1F98B71E1D4C8A00F7A397 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5A1F98B81E1D4C9400F7A397 /* Operation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Operation;
+			sourceTree = "<group>";
+		};
+		5A1F98B91E1D4CAB00F7A397 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5A1F98CE1E1D6BB000F7A397 /* BaseController.h */,
+				5A1F98CF1E1D6BB000F7A397 /* BaseController.m */,
+				5A1F98D21E1D6BD500F7A397 /* Pages */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5A1F98BA1E1D4CB900F7A397 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		5A1F98BB1E1D4CC900F7A397 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		5A1F98BC1E1D4D0100F7A397 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				5A1F98941E1D46EE00F7A397 /* AppDelegate.h */,
+				5A1F98971E1D46EE00F7A397 /* ViewController.h */,
+				5A1F98981E1D46EE00F7A397 /* ViewController.m */,
+				5A1F98951E1D46EE00F7A397 /* AppDelegate.m */,
+			);
+			name = Define;
+			sourceTree = "<group>";
+		};
+		5A1F98BD1E1D4E4200F7A397 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5A1F98CB1E1D65A800F7A397 /* Xib */,
+				5A1F98BE1E1D4E5200F7A397 /* images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5A1F98BE1E1D4E5200F7A397 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5A1F98C21E1D607300F7A397 /* button */,
+				5A1F989D1E1D46EE00F7A397 /* Assets.xcassets */,
+				5A1F98BF1E1D4E5E00F7A397 /* background */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		5A1F98BF1E1D4E5E00F7A397 /* background */ = {
+			isa = PBXGroup;
+			children = (
+				5A1F98C71E1D64D900F7A397 /* Signupbackground.png */,
+				5A1F98C01E1D600200F7A397 /* loginbackground.png */,
+			);
+			name = background;
+			sourceTree = "<group>";
+		};
+		5A1F98C21E1D607300F7A397 /* button */ = {
+			isa = PBXGroup;
+			children = (
+				5A1F98C91E1D64E600F7A397 /* SignUpWitharow.png */,
+				5A1F98C51E1D635600F7A397 /* LoginButtonLarge.png */,
+				5A1F98C31E1D625E00F7A397 /* SignupButtonLarge.png */,
+			);
+			name = button;
+			sourceTree = "<group>";
+		};
+		5A1F98CB1E1D65A800F7A397 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				5A1F98DD1E1D6CD300F7A397 /* SignupPage.xib */,
+				5A1F98D81E1D6C8A00F7A397 /* LoginPage.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
+		5A1F98D21E1D6BD500F7A397 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				5A1F98D31E1D6C1A00F7A397 /* BasePage.h */,
+				5A1F98D41E1D6C1A00F7A397 /* BasePage.m */,
+				5A1F98D61E1D6C8A00F7A397 /* LoginPage.h */,
+				5A1F98D71E1D6C8A00F7A397 /* LoginPage.m */,
+				5A1F98DB1E1D6CD300F7A397 /* SignupPage.h */,
+				5A1F98DC1E1D6CD300F7A397 /* SignupPage.m */,
+			);
+			name = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,9 +338,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1F98CA1E1D64E600F7A397 /* SignUpWitharow.png in Resources */,
+				5A1F98C81E1D64D900F7A397 /* Signupbackground.png in Resources */,
+				5A1F98DF1E1D6CD300F7A397 /* SignupPage.xib in Resources */,
 				5A1F98A11E1D46EE00F7A397 /* LaunchScreen.storyboard in Resources */,
 				5A1F989E1E1D46EE00F7A397 /* Assets.xcassets in Resources */,
 				5A1F989C1E1D46EE00F7A397 /* Main.storyboard in Resources */,
+				5A1F98DA1E1D6C8A00F7A397 /* LoginPage.xib in Resources */,
+				5A1F98C11E1D600200F7A397 /* loginbackground.png in Resources */,
+				5A1F98C41E1D625E00F7A397 /* SignupButtonLarge.png in Resources */,
+				5A1F98C61E1D635600F7A397 /* LoginButtonLarge.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,8 +365,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1F98D91E1D6C8A00F7A397 /* LoginPage.m in Sources */,
+				5A1F98DE1E1D6CD300F7A397 /* SignupPage.m in Sources */,
 				5A1F98991E1D46EE00F7A397 /* ViewController.m in Sources */,
 				5A1F98961E1D46EE00F7A397 /* AppDelegate.m in Sources */,
+				5A1F98D51E1D6C1A00F7A397 /* BasePage.m in Sources */,
+				5A1F98D01E1D6BB000F7A397 /* BaseController.m in Sources */,
 				5A1F98931E1D46EE00F7A397 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +564,7 @@
 				5A1F98B21E1D46EE00F7A397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A1F98B31E1D46EE00F7A397 /* Build configuration list for PBXNativeTarget "test1UITests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +573,7 @@
 				5A1F98B51E1D46EE00F7A397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
