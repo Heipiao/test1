@@ -6,6 +6,8 @@
 //  Copyright © 2017年 liu. All rights reserved.
 //
 
+@import Firebase;
+
 #import "AppDelegate.h"
 #import "LoginPage.h"
 #import "SigninPage.h"
@@ -18,6 +20,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [FIRApp configure];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     LoginPage *page = [[LoginPage alloc] init];
     //SigninPage *page1 = [[SigninPage alloc] init];
