@@ -10,4 +10,10 @@
 
 @interface LoginPage : BasePage
 
+@property UIButton *signupBtu;
+@property UIButton *loginBtu;
+
+-(IBAction)jump2signup:(id)sender;
+-(IBAction)jump2signin:(id)sender;
+
 @end
