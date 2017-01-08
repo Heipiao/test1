@@ -12,6 +12,8 @@
 #import "LoginPage.h"
 #import "SigninPage.h"
 
+#import <GoogleSignIn/GoogleSignIn.h>
+
 @interface AppDelegate ()
 
 @end
@@ -21,6 +23,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [FIRApp configure];
+    [GIDSignIn sharedInstance].clientID = [FIRApp defaultApp].options.clientID;
+    [GIDSignIn sharedInstance].delegate = self;
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     LoginPage *page = [[LoginPage alloc] init];
     //SigninPage *page1 = [[SigninPage alloc] init];
@@ -29,6 +34,22 @@
     return YES;
 }
 
+- (BOOL)application:(nonnull UIApplication *)application
+            openURL:(nonnull NSURL *)url
+            options:(nonnull NSDictionary<NSString *, id> *)options {
+    return [[GIDSignIn sharedInstance] handleURL:url
+                               sourceApplication:options[UIApplicationOpenURLOptionsSourceApplicationKey]
+                                      annotation:options[UIApplicationOpenURLOptionsAnnotationKey]];
+}
+
+- (BOOL)application:(UIApplication *)application
+            openURL:(NSURL *)url
+  sourceApplication:(NSString *)sourceApplication
+         annotation:(id)annotation {
+    return [[GIDSignIn sharedInstance] handleURL:url
+                               sourceApplication:sourceApplication
+                                      annotation:annotation];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

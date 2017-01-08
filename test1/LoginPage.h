@@ -10,8 +10,8 @@
 
 @interface LoginPage : BasePage
 
-@property UIButton *signupBtu;
-@property UIButton *loginBtu;
+@property (weak, nonatomic) UIButton *signupBtu;
+@property (weak, nonatomic) UIButton *loginBtu;
 
 -(IBAction)jump2signup:(id)sender;
 -(IBAction)jump2signin:(id)sender;

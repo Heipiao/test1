@@ -11,6 +11,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SigninPage">
             <connections>
+                <outlet property="emailField" destination="LQN-GT-IZH" id="QXY-nA-cKa"/>
+                <outlet property="googleButton" destination="acg-az-mI1" id="ma5-ZF-pXD"/>
+                <outlet property="passwordField" destination="Sce-5o-J30" id="UHe-KJ-bzQ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -62,11 +65,17 @@
                     <rect key="frame" x="120" y="481" width="135" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="googlebutton.png"/>
+                    <connections>
+                        <action selector="googleSignin" destination="-1" eventType="touchUpInside" id="ggW-9V-znv"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VnP-20-mWd">
                     <rect key="frame" x="129" y="572" width="121" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="signinbutton.png"/>
+                    <connections>
+                        <action selector="didTapEmailLogin:" destination="-1" eventType="touchUpInside" id="o9E-eM-eCi"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

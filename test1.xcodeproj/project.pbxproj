@@ -38,6 +38,9 @@
 		5A1F98FC1E1E61D000F7A397 /* googlebutton_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F98F91E1E61D000F7A397 /* googlebutton_h.png */; };
 		5A1F98FD1E1E61D000F7A397 /* twitterbutton_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F98FA1E1E61D000F7A397 /* twitterbutton_h.png */; };
 		5A1F98FE1E1E61D000F7A397 /* facebookbutton_h.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F98FB1E1E61D000F7A397 /* facebookbutton_h.png */; };
+		5A1F99051E20106200F7A397 /* MainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1F99031E20106200F7A397 /* MainPage.m */; };
+		5A1F99061E20106200F7A397 /* MainPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F99041E20106200F7A397 /* MainPage.xib */; };
+		5A1F99081E20116100F7A397 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A1F99071E20116100F7A397 /* GoogleService-Info.plist */; };
 		CCB7ED1195081CD743FBC1ED /* libPods-test1UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8F7BF6779A6FFDFE71D575 /* libPods-test1UITests.a */; };
 /* End PBXBuildFile section */
 
@@ -96,6 +99,10 @@
 		5A1F98F91E1E61D000F7A397 /* googlebutton_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = googlebutton_h.png; path = ../../../../../../Desktop/googlebutton_h.png; sourceTree = "<group>"; };
 		5A1F98FA1E1E61D000F7A397 /* twitterbutton_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitterbutton_h.png; path = ../../../../../../Desktop/twitterbutton_h.png; sourceTree = "<group>"; };
 		5A1F98FB1E1E61D000F7A397 /* facebookbutton_h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = facebookbutton_h.png; path = ../../../../../../Desktop/facebookbutton_h.png; sourceTree = "<group>"; };
+		5A1F99021E20106200F7A397 /* MainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPage.h; sourceTree = "<group>"; };
+		5A1F99031E20106200F7A397 /* MainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPage.m; sourceTree = "<group>"; };
+		5A1F99041E20106200F7A397 /* MainPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainPage.xib; sourceTree = "<group>"; };
+		5A1F99071E20116100F7A397 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6A80D1C027386FE2DC49949D /* Pods-test1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test1/Pods-test1.debug.xcconfig"; sourceTree = "<group>"; };
 		6F8F7BF6779A6FFDFE71D575 /* libPods-test1UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test1UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59EB3483855791BE9705ECD /* libPods-test1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +142,7 @@
 		5A1F98851E1D46EE00F7A397 = {
 			isa = PBXGroup;
 			children = (
+				5A1F99071E20116100F7A397 /* GoogleService-Info.plist */,
 				5A1F98901E1D46EE00F7A397 /* test1 */,
 				5A1F98AA1E1D46EE00F7A397 /* test1UITests */,
 				5A1F988F1E1D46EE00F7A397 /* Products */,
@@ -292,6 +300,7 @@
 		5A1F98CB1E1D65A800F7A397 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
+				5A1F99041E20106200F7A397 /* MainPage.xib */,
 				5A1F98DD1E1D6CD300F7A397 /* SignupPage.xib */,
 				5A1F98D81E1D6C8A00F7A397 /* LoginPage.xib */,
 				5A1F98E51E1E547600F7A397 /* SigninPage.xib */,
@@ -310,6 +319,8 @@
 				5A1F98DC1E1D6CD300F7A397 /* SignupPage.m */,
 				5A1F98E31E1E547600F7A397 /* SigninPage.h */,
 				5A1F98E41E1E547600F7A397 /* SigninPage.m */,
+				5A1F99021E20106200F7A397 /* MainPage.h */,
+				5A1F99031E20106200F7A397 /* MainPage.m */,
 			);
 			name = Pages;
 			sourceTree = "<group>";
@@ -437,6 +448,7 @@
 				5A1F98F01E1E5C1800F7A397 /* twitterbutton.png in Resources */,
 				5A1F98DF1E1D6CD300F7A397 /* SignupPage.xib in Resources */,
 				5A1F98FE1E1E61D000F7A397 /* facebookbutton_h.png in Resources */,
+				5A1F99061E20106200F7A397 /* MainPage.xib in Resources */,
 				5A1F98A11E1D46EE00F7A397 /* LaunchScreen.storyboard in Resources */,
 				5A1F98E21E1DB9D100F7A397 /* signupFrom.png in Resources */,
 				5A1F989E1E1D46EE00F7A397 /* Assets.xcassets in Resources */,
@@ -448,6 +460,7 @@
 				5A1F98FC1E1E61D000F7A397 /* googlebutton_h.png in Resources */,
 				5A1F98E71E1E547600F7A397 /* SigninPage.xib in Resources */,
 				5A1F98C11E1D600200F7A397 /* loginbackground.png in Resources */,
+				5A1F99081E20116100F7A397 /* GoogleService-Info.plist in Resources */,
 				5A1F98C41E1D625E00F7A397 /* SignupButtonLarge.png in Resources */,
 				5A1F98E91E1E5C0600F7A397 /* signinForm.png in Resources */,
 				5A1F98C61E1D635600F7A397 /* LoginButtonLarge.png in Resources */,
@@ -567,6 +580,7 @@
 				5A1F98961E1D46EE00F7A397 /* AppDelegate.m in Sources */,
 				5A1F98E61E1E547600F7A397 /* SigninPage.m in Sources */,
 				5A1F98D51E1D6C1A00F7A397 /* BasePage.m in Sources */,
+				5A1F99051E20106200F7A397 /* MainPage.m in Sources */,
 				5A1F98D01E1D6BB000F7A397 /* BaseController.m in Sources */,
 				5A1F98931E1D46EE00F7A397 /* main.m in Sources */,
 			);

@@ -7,6 +7,9 @@
 //
 
 #import "SignupPage.h"
+#import "SigninPage.h"
+
+@import FirebaseAuth;
 
 @interface SignupPage ()
 
@@ -24,14 +27,20 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)didCreateAccount:(id)sender {
+    [[FIRAuth auth]
+     createUserWithEmail:_emailField.text
+     password:_passwordField.text
+     completion:^(FIRUser *_Nullable user,
+                  NSError *_Nullable error) {
+             if (error) {
+                 return;
+             }
+             NSLog(@"%@ created", user.email);
+         SigninPage *signinPage = [[SigninPage alloc] init];
+         [self presentViewController:signinPage animated:YES completion:^{}];
+     }];
 }
-*/
+
 
 @end

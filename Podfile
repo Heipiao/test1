@@ -6,6 +6,8 @@ target 'test1' do
   # use_frameworks!
   
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 
   # Pods for test1
 

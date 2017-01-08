@@ -8,6 +8,13 @@
 
 #import "BasePage.h"
 
-@interface SigninPage : BasePage
+#import <GoogleSignIn/GoogleSignIn.h>
+
+@interface SigninPage : BasePage  <GIDSignInDelegate,GIDSignInUIDelegate>
+
+@property(weak, nonatomic) IBOutlet UITextField *emailField;
+@property(weak, nonatomic) IBOutlet UITextField *passwordField;
+
+@property(weak, nonatomic) IBOutlet UIButton *googleButton;
 
 @end
